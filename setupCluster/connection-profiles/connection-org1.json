@@ -8,7 +8,7 @@
     "channel": "mychannel",
     "description": "A description for a V1 Profile",
     "mspID": "Org1MSP",
-    "name": "biz-network-org1-only",
+    "name": "biz-network-org1",
     "orderers": [
     {
         "cert": "",
