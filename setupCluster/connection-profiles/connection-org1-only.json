@@ -1,0 +1,33 @@
+{
+    "ca":
+    {
+        "name": "ca",
+        "url": "http://172.20.80.137:30000",
+        "hostnameOverride": "ca.org1"
+    },
+    "channel": "mychannel",
+    "description": "A description for a V1 Profile",
+    "mspID": "Org1MSP",
+    "name": "biz-network-org1-only",
+    "orderers": [
+    {
+        "cert": "",
+        "url": "grpc://172.20.80.137:30091",
+        "hostnameOverride": "orderer0.orgorderer1"
+    }],
+    "peers": [
+    {
+        "cert": "",
+        "eventURL": "grpc://172.20.80.137:30001",
+        "requestURL": "grpc://172.20.80.137:30002",
+        "hostnameOverride": "peer0.org1"
+    },
+    {
+        "cert": "",
+        "eventURL": "grpc://172.20.80.137:30003",
+        "requestURL": "grpc://172.20.80.137:30004",
+        "hostnameOverride": "peer1.org1"
+    }],
+    "timeout": 300,
+    "type": "hlfv1"
+}
