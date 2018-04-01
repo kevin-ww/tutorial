@@ -18,14 +18,14 @@
     "peers": [
     {
         "cert": "",
-        "eventURL": "grpc://172.20.80.137:30001",
-        "requestURL": "grpc://172.20.80.137:30002",
+        "requestURL": "grpc://172.20.80.137:30001",
+        "eventURL": "grpc://172.20.80.137:30002",
         "hostnameOverride": "peer0.org1"
     },
     {
         "cert": "",
-        "eventURL": "grpc://172.20.80.137:30003",
-        "requestURL": "grpc://172.20.80.137:30004",
+        "requestURL": "grpc://172.20.80.137:30003",
+        "eventURL": "grpc://172.20.80.137:30004",
         "hostnameOverride": "peer1.org1"
     }],
     "timeout": 300,
