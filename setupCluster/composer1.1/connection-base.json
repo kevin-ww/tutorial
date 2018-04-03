@@ -109,14 +109,14 @@
     "certificateAuthorities": {
         "ca.org1": {
             "url": "http://172.20.80.137:30000",
-            "caName": "ca.org1",
+            "caName": "ca",
             "httpOptions": {
                 "verify": false
             }
         },
         "ca.org2": {
             "url": "http://172.20.80.137:30100",
-            "caName": "ca.org2",
+            "caName": "ca",
             "httpOptions": {
                 "verify": false
             }
