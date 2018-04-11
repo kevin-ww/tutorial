@@ -16,6 +16,19 @@ spec:
         org: $namespace
         orderer-id: $ordererID
     spec:
+      hostAliases:
+        - ip: "172.20.80.120"
+          hostnames:
+          - "emr-worker-3.cluster-40973"
+        - ip: "172.20.80.119"
+          hostnames:
+          - "emr-worker-2.cluster-40973"
+        - ip: "172.20.80.118"
+          hostnames:
+          - "emr-worker-1.cluster-40973"
+        - ip: "172.20.80.179"
+          hostnames:
+          - "emr-worker-4.cluster-40973"
       containers:
       - name: $podName
         image: hyperledger/fabric-orderer:x86_64-1.1.0
